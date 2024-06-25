@@ -1,17 +1,29 @@
-﻿Musica musica1 = new Musica();
+﻿//Musica musica1 = new Musica();
 
-musica1.Nome = "Roxanne";
-musica1.Artista = "The Police";
-musica1.Duracao = 187;
-musica1.Disponivel = true;
-Console.WriteLine(musica1.DescricaoResumida);
+//musica1.Nome = "Roxanne";
+//musica1.Artista = "The Police";
+//musica1.Duracao = 187;
+//musica1.Disponivel = true;
+//Console.WriteLine(musica1.DescricaoResumida);
 
-Musica musica2  = new Musica();
+//Musica musica2  = new Musica();
 
-musica2.Nome = "Vertigo";
-musica2.Artista = "U2";
-musica2.Duracao = 186;
-musica2.Disponivel = false;
+//musica2.Nome = "Vertigo";
+//musica2.Artista = "U2";
+//musica2.Duracao = 186;
+//musica2.Disponivel = false;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+//musica1.ExibirFichaTecnica();
+//musica2.ExibirFichaTecnica();
+
+Album albumDoQueen = new Album();
+albumDoQueen.Nome = "A night at the opera";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Love of my Life";
+
+Musica musica2 = new Musica();
+musica2.Nome = "Bohemian Rhapsody";
+
+albumDoQueen.AdicionarMusica(musica1);
+albumDoQueen.AdicionarMusica(musica2);
