@@ -16,11 +16,9 @@
 //musica1.ExibirFichaTecnica();
 //musica2.ExibirFichaTecnica();
 
-Banda queen = new Banda();
-queen.Nome = "Queen";
+Banda queen = new Banda("Queen");
 
-Album albumDoQueen = new Album();
-albumDoQueen.Nome = "A night at the opera";
+Album albumDoQueen = new Album("A night at the opera");
 
 Musica musica1 = new Musica(queen);
 musica1.Nome = "Love of my Life";
